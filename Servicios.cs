@@ -9,10 +9,10 @@ public static class Servicios
     private static List<Prestamo> prestamos = new List<Prestamo>();
     private static List<Autor> autores = new List<Autor>();
 
-    // Historial de préstamos
+    
     public static List<Prestamo> ListaMovimientos { get; } = new List<Prestamo>();
 
-    // Materiales registrados
+    
     public static List<Material> ListaMateriales => materiales;
     public static void GuardarPersona(Persona p)
     {
