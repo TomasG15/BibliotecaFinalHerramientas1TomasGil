@@ -1,6 +1,6 @@
 ﻿public class Material
 {
-    public string Codigo { get; set; } // Asumo que esto es lo mismo que "id"
+    public string Codigo { get; set; } 
     public string Titulo { get; set; }
     public string Autor { get; set; }
 
