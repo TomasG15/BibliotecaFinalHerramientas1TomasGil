@@ -39,7 +39,7 @@ public static class Servicios
         return personas.FindAll(p => p.EsAutor); ;
     }
 
-    // --- Préstamos ---
+   
     public static void GuardarPrestamo(Prestamo nuevoPrestamo)
     {
         prestamos.Add(nuevoPrestamo);
